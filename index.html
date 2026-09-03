@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CityLab Energy Control</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-content">
+
+            <img src="logo.png" alt="Logo CityLab" class="logo">
+
+            <div>
+                <h1>CityLab Energy Control</h1>
+                <p>
+                    Monitoramento e controle de consumo energético
+                    em instituições públicas para Cidades Inteligentes
+                </p>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <section class="intro">
+            <h2>Sobre o projeto</h2>
+
+            <p>
+                O CityLab Energy Control é um projeto desenvolvido no
+                CityLab da Fatec Rio Preto com o objetivo de utilizar
+                tecnologias de Internet das Coisas (IoT) para auxiliar
+                no monitoramento do consumo e das condições da energia
+                elétrica em instituições públicas.
+            </p>
+
+            <p>
+                A proposta busca possibilitar o acompanhamento contínuo
+                de informações relacionadas ao sistema elétrico,
+                permitindo uma visão mais clara do comportamento do
+                consumo energético e contribuindo para uma gestão mais
+                eficiente dos recursos.
+            </p>
+        </section>
+
+
+        <section class="section">
+
+            <h2>Como funciona</h2>
+
+            <p>
+                O protótipo utiliza um microcontrolador ESP32 conectado
+                a sensores responsáveis pela obtenção de informações
+                elétricas do circuito monitorado.
+            </p>
+
+            <p>
+                Os dados coletados podem ser disponibilizados por meio
+                de uma conexão Wi-Fi e enviados para uma plataforma de
+                Internet das Coisas, possibilitando seu acompanhamento
+                e organização.
+            </p>
+
+            <p>
+                A arquitetura foi desenvolvida pensando na possibilidade
+                de expansão do sistema para diferentes circuitos e
+                instalações elétricas.
+            </p>
+
+        </section>
+
+
+        <section class="section highlight">
+
+            <h2>Situação atual do protótipo</h2>
+
+            <p>
+                Atualmente, o protótipo encontra-se em fase de
+                desenvolvimento e realiza o monitoramento de apenas
+                um dos circuitos presentes no quadro elétrico.
+            </p>
+
+            <p>
+                Neste momento, o circuito utilizado para os testes é
+                o circuito de iluminação. Essa abordagem permite validar
+                o funcionamento do sistema antes de sua expansão para
+                uma instalação elétrica completa.
+            </p>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Perspectivas futuras</h2>
+
+            <p>
+                Uma das principais perspectivas para a evolução do
+                projeto é ampliar a capacidade de monitoramento do
+                protótipo para que ele possa acompanhar os diferentes
+                circuitos de um quadro elétrico de forma integrada.
+            </p>
+
+            <p>
+                Dessa forma, o sistema poderá fornecer uma visão mais
+                abrangente do comportamento energético da instalação,
+                contribuindo para a identificação de padrões de consumo,
+                possíveis anomalias e oportunidades de melhoria na
+                utilização da energia elétrica.
+            </p>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Tecnologias utilizadas</h2>
+
+            <div class="technologies">
+
+                <div class="technology">
+                    <h3>ESP32</h3>
+                    <p>
+                        Microcontrolador responsável pelo processamento
+                        das informações e pela comunicação do sistema.
+                    </p>
+                </div>
+
+                <div class="technology">
+                    <h3>PZEM-004T V3</h3>
+                    <p>
+                        Sensor utilizado para a obtenção de informações
+                        relacionadas às grandezas elétricas.
+                    </p>
+                </div>
+
+                <div class="technology">
+                    <h3>Wi-Fi</h3>
+                    <p>
+                        Utilizado para a comunicação entre o dispositivo,
+                        a rede local e os serviços de IoT.
+                    </p>
+                </div>
+
+                <div class="technology">
+                    <h3>Arduino IoT Cloud</h3>
+                    <p>
+                        Plataforma utilizada para integração e
+                        gerenciamento dos dados do dispositivo IoT.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>CityLab Fatec Rio Preto</p>
+        <p>CityLab Energy Control</p>
+    </footer>
+
+</body>
+</html>
